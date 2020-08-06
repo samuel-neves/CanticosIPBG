@@ -20,7 +20,7 @@ const AppRouthes: React.FC = () => (
     <App.Screen
       name="Search"
       component={Search}
-      options={{ headerShown: true }}
+      options={{ headerShown: false }}
     />
     <App.Screen name="Lyrics" component={Lyrics} />
   </App.Navigator>
