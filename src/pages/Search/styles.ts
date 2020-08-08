@@ -1,4 +1,5 @@
 import styled from 'styled-components/native';
+import { RectButton } from 'react-native-gesture-handler';
 
 export const Container = styled.View``;
 
@@ -9,14 +10,17 @@ export const SearchBox = styled.View`
   border-color: #999;
 `;
 
-export const MusicContainer = styled.View`
+export const MusicContainer = styled(RectButton)`
+  border-radius: 2;
+`;
+
+export const Music = styled.View`
   width: 100%;
   height: 95px;
+  padding: 8px 12px;
 
   border-bottom-width: 2px;
   border-color: #999;
-
-  padding: 8px 12px;
 `;
 
 export const Title = styled.Text`
