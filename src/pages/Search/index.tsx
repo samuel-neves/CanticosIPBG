@@ -38,7 +38,7 @@ const Search: React.FC = () => {
   return (
     <Container>
       <SearchBox>
-        <Input placeholder="Número, título ou letra" selectionColor="#fff" />
+        <Input placeholder="Número, título ou letra" selectionColor="#ddd" />
       </SearchBox>
 
       <ScrollView
